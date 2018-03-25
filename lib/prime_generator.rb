@@ -1,12 +1,7 @@
 class PrimeGenerator
-  FIRST_PRIME = 2
-
   def self.first(prime_count=1)
     primes = []
     enumerator = 0
-
-    return FIRST_PRIME if prime_count == 1
-
     while primes.length < prime_count do
       primes.push(enumerator) if self.is_prime?(enumerator)
       enumerator+=1
