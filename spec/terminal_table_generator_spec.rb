@@ -10,7 +10,7 @@ describe TerminalTableGenerator do
       end
 
       it "should return the header correctly" do
-        output = " 2   3   5    7    11   13   17   19   23   29  "
+        output = "      |  2   3   5    7    11   13   17   19   23   29  "
         expect(subject.headings[0].render).to eql(output)
       end
 
@@ -19,12 +19,12 @@ describe TerminalTableGenerator do
       end
 
       it "should return the first row correctly" do
-        output = " 4   6   10   14   22   26   34   38   46   58  "
+        output = " 2    |  4   6   10   14   22   26   34   38   46   58  "
         expect(subject.rows[0].render).to eql(output)
       end
 
       it "should return the last row correctly" do
-        output = " 58  87  145  203  319  377  493  551  667  841 "
+        output = " 29   |  58  87  145  203  319  377  493  551  667  841 "
         expect(subject.rows[9].render).to eql(output)
       end
 

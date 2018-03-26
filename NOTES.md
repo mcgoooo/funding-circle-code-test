@@ -22,5 +22,5 @@ unit tests, and look at using that for the integration test.
 2) research prime number generation ✅
 3) write the first basic instance of prime number generation, will get the first prime number ✅
 4) expand the class to be able to generate a list of prime numbers with the quantity needed passed in ✅
-5) write a class to make the output of the prime numbers and multiplication for the gem
-6) write final output class
+5) write a class to make the output of the prime numbers and multiplication for the gem ✅
+6) write final output class ✅
